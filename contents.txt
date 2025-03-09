@@ -5,6 +5,7 @@ calendar-backend/
 │   ├── models/         # データベースモデル
 │   ├── controllers/    # ロジック（オプション）
 │   ├── middleware/     # ミドルウェア（オプション）
+│   ├── app/            # フロント部分の作成 　
 │── node_modules/       # 依存パッケージ
 │── .gitignore          # Gitに含めないファイル
 │── package.json        # 依存関係とスクリプト
