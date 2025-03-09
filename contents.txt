@@ -1,0 +1,14 @@
+calendar-backend/
+│── src/                # ソースコード
+│   ├── server.ts       # サーバーのエントリーポイント
+│   ├── routes/         # APIルート
+│   ├── models/         # データベースモデル
+│   ├── controllers/    # ロジック（オプション）
+│   ├── middleware/     # ミドルウェア（オプション）
+│── node_modules/       # 依存パッケージ
+│── .gitignore          # Gitに含めないファイル
+│── package.json        # 依存関係とスクリプト
+│── package-lock.json   # 依存関係のバージョン固定
+│── tsconfig.json       # TypeScriptの設定
+│── .env                # 環境変数（追加推奨）
+│── README.md           # プロジェクトの説明（追加推奨）
